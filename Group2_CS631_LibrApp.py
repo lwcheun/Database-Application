@@ -1,6 +1,11 @@
-#Group 2: Michael Lan, Leon Cheung, Zhenbo Qiao
+##########################################################################################
+#
+#						CS631 - Data Management Systems Design
+#
+#					Group 2: Michael Lan, Leon Cheung, Zhenbo Qiao
+#
+##########################################################################################
 
-##########################################################
 #import tkinter as tk                # python 3
 #from tkinter import font  as tkfont # python 3
 from Tkinter import *
@@ -15,6 +20,8 @@ from mysql.connector import (connection)
 import datetime
 from datetime import date, timedelta, time
 from datetime import datetime as dt 
+
+##########################################################
 
 #create method Conn inside each class and call every time use sql (b/c need to close conn when a single sql
 #stm is done)
